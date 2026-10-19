@@ -20,6 +20,7 @@ const projects = [
     description: 'Developed a tool that leverages AI to automatically generate written content, helping marketers and businesses create copy more efficiently.',
     icon: FileText,
     tags: ['AI', 'Content', 'Automation'],
+    link: 'https://omnichannel-business-0nui.bolt.host/',
   },
   {
     title: 'AI Solution App',
@@ -83,7 +84,7 @@ export default function Projects() {
                   className="mt-4 border border-slate-600 rounded-lg py-3 flex items-center justify-center gap-2 text-slate-400 hover:text-teal-300 hover:border-teal-500/50 transition-colors"
                 >
                   <LinkIcon size={16} />
-                  <span className="text-xs font-medium">View project on GitHub</span>
+                  <span className="text-xs font-medium">View project</span>
                 </a>
               ) : (
                 <div className="mt-4 border-2 border-dashed border-slate-600 rounded-lg py-4 flex items-center justify-center gap-2 text-slate-500">
